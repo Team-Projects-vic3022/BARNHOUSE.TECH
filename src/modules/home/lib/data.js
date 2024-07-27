@@ -29,3 +29,24 @@ export const projects = [
     des4: "Ceiling on the first floor: 2.5m",
   },
 ];
+
+export const homeVide = [
+  {
+    image: house,
+    name: "ENGINEERING SYSTEMS",
+    subTitle: "equipment",
+    des: "Are the basis of the infrastructure of any object, their main function to ensure the comfortable life and stay of people",
+  },
+  {
+    image: house,
+    name: "ENGINEERING SYSTEMS",
+    subTitle: "equipment",
+    des: "Are the basis of the infrastructure of any object, their main function to ensure the comfortable life and stay of people",
+  },
+  {
+    image: house,
+    name: "ENGINEERING SYSTEMS",
+    subTitle: "equipment",
+    des: "Are the basis of the infrastructure of any object, their main function to ensure the comfortable life and stay of people",
+  },
+];

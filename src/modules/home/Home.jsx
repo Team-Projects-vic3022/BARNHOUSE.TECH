@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import ProjectsTextSection from "./sections/ProjectsTextSection";
 import HeroSection from "./sections/HeroSection";
 import FeaturedProjects from "./components/FeaturedProjects";
+import VideosSection from "./components/VideosSection";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroSection />
       <ProjectsTextSection />
       <FeaturedProjects />
+      <VideosSection />
     </>
   );
 };

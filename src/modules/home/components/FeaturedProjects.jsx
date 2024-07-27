@@ -58,7 +58,7 @@ const FeaturedProjects = () => {
           })}
         </div>
       </div>
-      <div className="text-center ">
+      <div className="text-center mb-20">
         <Button className="uppercase py-2 px-[8rem] bg-[rgba(50,65,96)]">
           All Offers
         </Button>
