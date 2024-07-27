@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero {
+}
 
 * {
   margin: 0;
@@ -11,6 +16,9 @@
 html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 ul,
@@ -23,5 +31,5 @@ li {
 }
 
 .container {
-  @apply w-[min(100%-10rem,_130rem)] mx-auto;
+  @apply w-[min(100%-10rem,_60rem)] mx-auto;
 }
