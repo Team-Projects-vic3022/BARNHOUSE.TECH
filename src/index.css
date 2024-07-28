@@ -31,5 +31,5 @@ li {
 }
 
 .container {
-  @apply w-[min(100%-10rem,_60rem)] mx-auto;
+  @apply w-[min(100%-5rem,_60rem)] mx-auto;
 }

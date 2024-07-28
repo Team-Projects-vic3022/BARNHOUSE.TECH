@@ -26,7 +26,7 @@ const VideosSection = () => {
         </p>
       </div>
 
-      <div className="container text-center">
+      <div className="container text-center mb-20">
         {homeVide.map((item, idx) => {
           return (
             <div

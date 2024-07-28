@@ -3,13 +3,41 @@ import Button from "./Button";
 
 const Form = () => {
   return (
-    <form>
-      <input type="text" />
-      <input type="email" />
-      <input type="phone" />
-      <input type="text" />
-      <textarea name="" id=""></textarea>
-      <Button />
+    <form className="flex flex-col gap-y-1">
+      <input
+        type="text"
+        placeholder="Name"
+        className="border px-6 py-1 "
+        required:true
+      />
+      <input
+        type="emai"
+        placeholder="E-mail"
+        className="border px-6 py-1 "
+        required:true
+      />
+      <input
+        type="phone"
+        placeholder="Phone"
+        className="border px-6 py-1 "
+        required:true
+      />
+      <input
+        type="text"
+        placeholder="Subject"
+        className="border px-6 py-1 "
+        required:true
+      />
+      <textarea
+        name=""
+        id=""
+        placeholder="Message"
+        className="border px-6 py-1 mb-8 border-gray-950"
+        required:true
+      ></textarea>
+      <Button className=" text-center py-1 bg-[rgb(40,_59,_98)] hover:bg-[#A0A09F] text-white">
+        send
+      </Button>
     </form>
   );
 };
