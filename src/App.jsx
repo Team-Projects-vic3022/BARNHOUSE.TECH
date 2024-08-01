@@ -7,10 +7,12 @@ import Article from "./modules/article/Article";
 import SingleProductPage from "./modules/singleProduct/SingleProductPage";
 import MobileNavigation from "./modules/components/MobileNavigation";
 import { useLocation } from "react-router-dom";
+import useScrollToTop from "./lib/useScrollToTop";
 
 function App() {
   const [mobileNav, setMobileNav] = useState(false);
   const location = useLocation();
+  useScrollToTop();
 
   useEffect(() => {
     setMobileNav(false);
