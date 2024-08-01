@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+BARNHOUSE.TECH/vite.config.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
