@@ -21,6 +21,10 @@ html {
   font-style: normal;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
 ul,
 li {
   list-style: none;
@@ -33,3 +37,14 @@ li {
 .container {
   @apply w-[min(100%-5rem,_60rem)] mx-auto;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    @apply w-[min(100%-2rem,_60rem)] mx-auto;
+  }
+}
+
+/* color light - #5272b2 */
+/* color dark - #324160 */
+/* color text - #a0a09f */
+/* color yellow - #cbb492 */

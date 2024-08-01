@@ -20,7 +20,7 @@ const SingleProductDesc = () => {
           так и для дачного отдыха.
         </p>
       </div>
-      <h3 className="text-[20px] text-center font-bold">
+      <h3 className="text-[20px] text-center font-bold mb-4">
         КОНСТРУКТИВ ПРОЕКТА BARN MINI 50
       </h3>
       <div className="flex flex-col gap-1 mb-16">
@@ -44,7 +44,7 @@ const SingleProductDesc = () => {
           Закажите его презентацию и мы ответим на все интересующие вас вопросыf
         </p>
       </div>
-      <Button className="py-1 px-20 mb 20 border block mx-auto border-[rgb(2,_136,_209)] text-[rgb(2,_136,_209)]">
+      <Button className="py-1 px-20 mb-16 border block mx-auto border-[rgb(2,_136,_209)] text-[rgb(2,_136,_209)]">
         E-mail us
       </Button>
     </div>

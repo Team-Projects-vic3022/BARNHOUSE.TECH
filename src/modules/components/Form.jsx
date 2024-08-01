@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Form = () => {
   return (
-    <form className="flex flex-col gap-y-1">
+    <form className="flex flex-col gap-y-1 bg-white p-4 hmXl:p-0">
       <input
         type="text"
         placeholder="Name"
@@ -32,7 +32,7 @@ const Form = () => {
         name=""
         id=""
         placeholder="Message"
-        className="border px-6 py-1 mb-8 border-gray-950"
+        className="border px-6 py-1 mb-8 border-gray-950 resize-none h-[8rem]"
         required:true
       ></textarea>
       <Button className=" text-center py-1 bg-[rgb(40,_59,_98)] hover:bg-[#A0A09F] text-white">

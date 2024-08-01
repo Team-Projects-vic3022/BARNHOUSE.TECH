@@ -2,6 +2,7 @@ import React from "react";
 import { projects } from "../../home/lib/data";
 import house from "../assets/house.jpg";
 import TrustUs from "../../home/components/TrustUs";
+import { Button } from "../../components";
 
 const FeaturedSingleProduct = () => {
   return (
@@ -10,7 +11,9 @@ const FeaturedSingleProduct = () => {
         <h2 className="capitalize text-[28px] text-center">
           КОМПЛЕКТАЦИЯ ДЛЯ КРУГЛОГОДИЧНОГО ПРОЖИВАНИЯ
         </h2>
-        <p>Мы подобрали оптимальное решение для данного проекта.</p>
+        <p className="text-center mb-8">
+          Мы подобрали оптимальное решение для данного проекта.
+        </p>
 
         <div className="grid grid-cols-[repeat(auto-fit,_minmax(18rem,_1fr))] gap-x-4 gap-y-12 mb-20">
           {projects.map((item, idx) => {
@@ -28,6 +31,9 @@ const FeaturedSingleProduct = () => {
                   <h6>{item.des3}</h6>
                   <h6>{item.des4}</h6>
                 </p>
+                <Button className="text-[#5272b2] border border-[#5272b2] w-max px-10 py-2">
+                  see more
+                </Button>
               </div>
             );
           })}

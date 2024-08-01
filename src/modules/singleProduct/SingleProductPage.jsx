@@ -10,7 +10,7 @@ import Caurosel from "./components/Caurosel";
 const SingleProductPage = () => {
   return (
     <>
-      <div className="container">
+      <div className="container text-drkblue">
         <SingleProductText />
         <SingleProductImage />
 
